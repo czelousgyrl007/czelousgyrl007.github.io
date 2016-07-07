@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+  background-image: url("images/pinkwicked.png");
+  background-image: cover;
+  background-color: #fff;
+  font-family: Tahoma;
+  font-color: #000;
+  text-transform: 
+}
+
+div#wicked-iconrow {
+	float: left; 
+	margin: 0px 15px 15px 0px;
+	text-align: left;
+}
+
+p {
+  font-size: 20px;
+}
+hr {
+  width: 100px;
+
+}
+a {
+    color: #cc0099;
+    font-weight: bold;
+}
