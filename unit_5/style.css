@@ -1,0 +1,57 @@
+div#wrapper {
+  width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffe2b8;
+}
+
+body {
+  font-family: "Lato", Lato, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+header {
+  padding: 30px 0;
+  background-color: #ffed74;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 300;
+  color: #dd0077;
+  padding: 20px;
+}
+
+nav {
+  text-align: center;
+  background-color: #E8c66a;
+  padding: 20
+}
+
+nav a {
+  color: #000;
+  display: block;
+  width: 180px;
+  float: left;
+  padding: 20px 0;
+}
+
+article#classdescription {
+background-color: #E89C6C;
+border: 1px black solid;
+padding: 20px;
+}
+
+aside {
+  padding-top: 20px;
+  float: left;
+  width: 300px;
+  background-color: #FFC675;
+}
+
+footer {
+  clear: both;
+  background-color: #FF957E;
+  padding: 20px;
+}

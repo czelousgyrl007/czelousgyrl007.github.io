@@ -1,50 +1,65 @@
 @import url(https://fonts.googleapis.com/css?family=Comfortaa);
-@import url(https://fonts.googleapis.com/css?family=Cinzel+Decorative:900);
+@import url(https://fonts.googleapis.com/css?family=Cinzel:400,700,900);
 
 body{ 
-    text-align: center;
-    font-family: 'Comfortaa', cursive;
-    font-size:2em;
-    width:22em;
-    color: #000;
-    /*
+  text-align: center;
+  position: relative;
+  font-size:2em;
+  width:22em;
+  color: #000;
+  display: block;
+  margin: 0 auto;
+      /*
     background-image: url("../images/pinkwicked.png");
     background-size: center;
     background-color: #fff;
     background-repeat: no-repeat;
     */
-    
-body {
-  display: block;
-  margin: 8px;
 }
+
 header {
-  /*
   padding: 20px;
   text-align: center;
-  font-family: 'Cinzel Decorative':900;
-  font-size:3em; */
+  font-family: 'Cinzel', serif;
+  font-size:3em;
 }
+
+p{
+  font-family: 'Comfortaa', bold;
+  text-align: center;
+  font-size: 1em;
+}
+
 h2 {
   font-size:1em;
-  font-family: 'Comfortaa', bold;
+  font-family: 'Cinzel', serif;
 }
+
 div#wicked-iconrow {
   float: left; 
   margin: 0px 15px 15px 0px;
   text-align: left;
   font-size:2em;
-hr {
-  width: 100px;
-  border-width: 2px
 }
 a {
-    color: #cc0099;
+    color: #e62489;
     font-weight: bold;
     text-decoration: none;
   }
-
 .column {
-  width: 33%;
+  width: 30%;
   display: inline-block;
+}
+
+
+.landing{
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Cinzel', serif;
+}
+
+img {
+  width: 50%;
 }
